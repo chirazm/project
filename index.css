@@ -1,0 +1,249 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+marquee {
+  font-size: 35px;
+}
+.sec2{
+    background-color:rgb(43, 147, 195) ;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    font-size: 15px;
+    justify-content: space-evenly; 
+    overflow: hidden;
+}
+.sec2 a {
+  float: left;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.sec2 img{
+  width: 90px;
+  height: 80px;
+}
+.sec3 { 
+/* background-image: url("https://www.cegeplimoilou.ca/media/1292135/dev_appli_securitaire.jpg?quality=85");*/
+background-image: url(./48368766_302881807018096_9200096724314488832_n.png);
+background-repeat: no-repeat;
+background-size: cover;
+min-width:600px;
+min-height:565px;
+}
+
+.fieldset{
+  padding-top: 130px ;
+}
+.fieldset fieldset {
+  padding-top: 180px;
+  margin-left: 40px;
+  width: 425px;
+  height: 20%;
+  font-size: 1.3em;
+  color: black;
+  border: 2px solid orange;
+  border-radius: 25px;
+}
+.fieldset legend {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-left: 4vh;
+  color: rgb(65, 2, 2);
+}
+.fieldset p {
+    margin-left: 10px;
+    margin-top: -40%;
+}
+body {
+  background-color: rgb(218, 248, 246);
+}
+/*gallery*/
+.sec4 {
+  width: 100%;
+  margin: 2rem auto;
+  margin-top: 20px; 
+}
+.gallery{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.gal {
+display: grid;
+grid-template-columns: repeat(8, 1fr);
+grid-template-rows: repeat(8, 5vw);
+grid-gap: 1.5rem; 
+}
+.img1{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+.img2{
+  grid-column-start: 5;
+  grid-column-end: 10;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+.img3 {
+  grid-column-start: 5;
+  grid-column-end: 10;
+  grid-row-start: 1;
+  grid-row-end: 3;  
+}
+.img4{
+  grid-column-start: 10;
+  grid-column-end: 12;
+  grid-row-start: 1;
+  grid-row-end: 5; 
+}
+.img5{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 8; 
+}
+.img6{
+  grid-column-start: 5;
+  grid-column-end: 12;
+  grid-row-start: 5;
+  grid-row-end: 8; 
+}
+.formation1 {
+  margin-left: 10%;
+  margin-right: 60%;
+  margin-top:8% ;
+  font-size: 1.5em;
+}
+.formation1 fieldset {
+  border-radius: 20px;
+  border: 10px;
+}
+#formation1 fieldset:hover  {
+  border: 4px dotted;
+  transition: 0.5s;
+  background-color: #00cccc;
+}
+.formation1 legend {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.formation1 p {
+  margin-left: 5%;
+}
+#Connexion fieldset {
+  margin-bottom: 40%;
+  margin-top: 10%;
+  margin-left: 15%;
+  white-space:nowrap;
+  background-color: rgb(43, 147, 195);
+  border-radius: 20px;
+  width: 28%;
+  height: 200px;
+
+}
+#Connexion legend {
+  font-size: 2em;
+  font-weight: bold;
+  padding: 0px 10px;
+  padding-bottom: 3%;
+}
+#Connexion label {
+  width: 110px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 8%;
+  font-weight: bold;
+  font-size: 1em;
+}
+#Connexion input:focus {
+  background: #eaeaea;
+}
+#Connexion button {
+  margin-bottom: 15px;
+  font-size: 0.75em;
+  width: 30%;
+}
+#cnx{
+  font-size: 1em;
+  width: 30%;
+  font-weight: bold;
+}
+#cnx:hover{
+  transition: 0.5s;
+  background-color: orchid;
+}
+#form fieldset {
+  margin-left: 150%;
+  margin-top: -310%;
+  margin-bottom: 40%;
+  padding: 20px;
+  padding-left: 10%;
+  padding-right: 40%;
+  white-space:nowrap;
+  background-color: rgb(43, 147, 195);
+  border-radius: 20px;
+}
+#form legend {
+  font-size: 2em;
+  padding: 0px 10px;
+}
+#form label {
+  width: 110px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 8px;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+#form input:focus {
+  background: #eaeaea;
+}
+#form input {
+  margin-left: 21%;
+}
+
+#submit {
+  margin-left: 90px;
+  margin-bottom: 15px;
+  font-size: 0.75em;
+  width: 30%;
+  font-weight: bold;
+}
+#submit:hover {
+  transition: 0.5s;
+  background-color: orchid;
+}
+.Container{
+  background-color: #6589C5;
+  width : 100% ;
+  height: 90vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("https://demotix.com/wp-content/uploads/2019/06/elearning11.jpg");
+}
+.log
+{
+  border: 2px solid #6589C5 ;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3px black;
+  width : 60%;
+  height: 60vh;
+  padding : 2%;
+  margin : 5% auto ;
+  text-align: center;
+
+}
+.input-group{
+  margin: 4% auto;
+}

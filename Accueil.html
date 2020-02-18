@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+  
+    <title>Accueil</title>
+</head>
+<body>
+    <marquee behavior="alternate" direction="reight" bgcolor="#00cccc"><h1> Bienvenue sur notre site </h1></marquee>
+
+    <div class="sec2">
+        <a href="#Accueil">Accueil</a>
+        <a href="#Gallery">Gallerie</a>
+        <img src="https://www.oiiaq.org/files/content/Evenements/Catalogue/icones-passeport_formation-en-ligne.png" alt="">
+        <a href="#Connexion">Se connecter</a>
+        <a href="Contact.html">Contact</a>
+   </div>
+    <div class="sec3">
+        <div class="fieldset">
+        <fieldset>
+            <legend> À propos de nous </legend>
+            <p> Comment se former et acquérir de nouvelles compétences quand on n’a pas le temps ou la possibilité de se déplacer ?
+                 L’enseignement à distance (ou e-learning) apparaît comme une solution idéale d’autant que les établissements qui 
+                 proposent cette formule ne cessent d’augmenter.<br> Quelles formations sont accessibles ? <br>
+                 Comment se présentent les formations ? <br> Nous vous disons tout.  </p><br>
+                </fieldset>
+            </div>
+    </div>
+    <div id="Gallery" class="sec4">
+        <div class="gal">
+            <figure class="img1">
+              <img src="https://thumbs.dreamstime.com/b/groupe-d-%C3%A9tudiant-de-dipl-m%C3%A9s-heureux-71994698.jpg" class="gallery" alt="Image 1">
+            </figure>
+            <figure class="img2">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRwlCyt8_M3AGP1XTBMEdF8nB3tbo2L4_GSrbwOwKSNb8SL_7q3" class="gallery" alt="Image 2">
+            </figure>
+            <figure class="img3">
+              <img src="https://thumbs.dreamstime.com/z/concept-de-%C3%A9tude-en-ligne-professeur-et-groupe-d-%C3%A9tudiants-place-pour-le-texte-78502847.jpg" class="gallery" alt="Image 3">
+            </figure>
+            <figure class="img4">
+              <img src="https://thumbs.dreamstime.com/b/groupe-d-%C3%A9tudiants-employant-les-ressources-en-ligne-79850101.jpg" class="gallery" alt="Image 4">
+            </figure>
+            <figure class="img5">
+              <img src="https://thumbs.dreamstime.com/b/webinar-isometric-d-concept-webinar-isometric-concept-online-lessons-headlines-stages-training-visual-form-vector-118734743.jpg"  class="gallery" alt="Image 5">
+            </figure>
+            <figure class="img6">
+              <img src="https://cdn.searchenginejournal.com/wp-content/uploads/2019/02/online-courses-760x400.jpg" class="gallery" alt="Image 6">
+            </figure>
+          </div>
+          </div>
+    </div>
+    <div id="Connexion">
+        <fieldset>
+            <legend> Se connecter</legend><br>
+            <label>E-mail : </label> <input id="email" type="text" name="name" size="25" maxlength="50" placeholder="exemple@domaine.com"autofocus="" required=""> <br><br>
+            <label>Mot de passe : </label> <input id="passe" type="password" name="name" size="25" maxlength="50" placeholder="Entrer le mot de passe"autofocus="" required=""> <br><br>
+           <input id="cnx" type="submit" value="Connexion" style="margin-left: 35%";> <br><br>
+           <a href="" style="padding-left: 31%;"> Mot de passe oublié ?</a>
+          </fieldset>
+    </div>
+    <div id="formation1" class="formation1">
+       <fieldset>
+           <legend> Formation par personne</legend>
+           <p>Vous pouvez suivre une de nos formations à distance, à partir de votre bureau ou 
+            de votre domicile. Il vous suffit d'avoir accès à un ordinateur doté d'une caméra 
+            et d'un casque d'écoute (ou d'un simple microphone).
+            Au moment convenu, une de nos formatrices communiquera avec vous par Internet. 
+            Vous n'aurez pas à télécharger d'application sur votre ordinateur. 
+            Il vous suffira de cliquer sur un lien qui vous sera transmis par courriel 
+            pour entrer aussitôt en communication avec la formatrice.</p> <br>
+       </fieldset>
+    <form name="f" id="form" onsubmit="verif()" >
+       <div>
+        <fieldset>
+          <legend> Inscription</legend>
+          <label> Nom : </label> <input id="nom" type="text" name="nom" size="25" maxlength="50" width="20px" placeholder="Nom" autofocus="" required=""><br>
+          <label>Prénom : </label><input id="prenom"type="text" name="prenom" size="25" maxlength="50" placeholder="Prénom"autofocus="" required=""><br>
+          <label>E-mail : </label> <input id="email" type="instead of text" name="email" size="25" maxlength="50" placeholder="exemple@domaine.com"autofocus="" required=""> <br>
+          <label>Mot de passe : </label> <input id="passe" type="password" name="name" size="25" maxlength="50" placeholder="Entrer le mot de passe"autofocus="" required=""> <br>
+          <label>N° de téléphone: </label><input id="numero" type="number" name="name" size="25" maxlength="50" placeholder="par ex: (+216) 55222333"autofocus="" required=""><br><br>
+         <input id="submit" type="submit" value="Envoyer" >
+         <input id="submit" type="reset" value="Annuler">
+        </fieldset>
+      </div>
+   </form> 
+    
+</body>
+<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-database.js"></script>
+<script src="Accueil.js"></script>
+
+</html>
